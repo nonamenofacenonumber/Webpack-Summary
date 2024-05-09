@@ -1,0 +1,37 @@
+install nodejs
+node -v
+cd C:\Users\Saeed\Desktop\Web Programming\Samples\9- Webpack Summary
+npm init
+npm install --save-dev webpack
++
+npm install --save-dev webpack-cli
+OR
+npm i -D webpack@4.35.0 webpack-cli@3.3.4
+Global install:
+npm i -g webpack@4.35.0 webpack-cli@3.3.4
+( -D = --save-dev = dev dependency )
+( i = install )
+( webpack-cli = webpack command line interface )
+
+(in production mode our codes will minify but not in development mode)
+(development mode is default mode)
+
+
+npm run build
+npm run watch
+
+npm i -D style-loader@0.23.1 css-loader@3.0.0
+npm i -D sass-loader@7.1.0 node-sass@4.12.0
+npm i -D file-loader@4.0.0
+npm install --save-dev babel-loader @babel/core
+npm install webpack-dev-server@3.7.2 --save-dev
+npm install --save-dev html-webpack-plugin@3.2.0
+npm install --save-dev mini-css-extract-plugin@0.7.0
+npm install --save-dev clean-webpack-plugin@3.0.0
+
+npm run build:prod
+npm run build:dev
+
+npm i --save lodash@4.17.11
+npm
+npm i node-notifier@5.4.0 -D
